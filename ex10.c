@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
                 if (i > 2) {
                     // it's only sometimes Y
                     printf("%d: 'Y'\n", i);
+                    printf("Hello world!");
                 }
                 break;
 
@@ -50,6 +51,5 @@ int main(int argc, char *argv[])
                 printf("%d: %c is not a vowel\n", i, letter);
         }
     }
-
     return 0;
 }
